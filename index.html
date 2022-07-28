@@ -219,69 +219,71 @@
 
         <!-------------Register start---------------->
 
-        <section class="container mt-3 section-bg">
-            <div class="container py-3 row">
-                <div class="text-light .col-lg-6">
-                    <h1 class="fw-bold" style="font-size: 60px;">Ready to join?
-                    </h1>
-                    <p class="pt-3">Develop the programming knowledge and skills required to complete
-                        advanced
-                        analytics.</p>
-                </div>
-                <div class=".col-lg-6">
-                    <button type="button" class="btn ready-btn" data-bs-toggle="modal" data-bs-target="#RegisterModal"
-                        data-bs-whatever="@mdo">Register Now
-                    </button>
-                    <div class="modal fade" id="RegisterModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header p-5 pb-4 border-bottom-0">
-                                    <!-- <h5 class="modal-title">Modal title</h5> -->
-                                    <h2 class="fw-bold mb-0">Register Now</h2>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                        aria-label="Close"></button>
-                                </div>
+        <section>
+            <div class="container">
+                <div class="p-4 p-lg-5 section-bg rounded-3 text-center">
+                    <div class="m-4 m-lg-5 row  align-items-center justify-content-between">
+                        <div class="col-lg-6">
+                            <h1 class="display-5 fw-bold me-lg-5">Ready to join?</h1>
+                            <p class="fs-5">Develop the programming knowledge and skills required to complete advanced
+                                analytics.</p>
+                        </div>
+                        <div class="col-lg-4 ms-lg-5">
+                            <button type="button" class="btn ready-btn" data-bs-toggle="modal"
+                                data-bs-target="#RegisterModal" data-bs-whatever="@mdo">Register Now
+                            </button>
+                            <div class="modal fade" id="RegisterModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header p-5 pb-4 border-bottom-0">
+                                            <h3 class="fw-bold mb-0">Register Now</h3>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
 
-                                <div class="modal-body p-5 pt-0">
-                                    <form class="">
-                                        <div class="form-floating mb-3">
-                                            <input type="name" class="form-control rounded-3" id="floatingInput"
-                                                placeholder="name@example.com">
-                                            <label for="floatingInput">Enter your full name</label>
+                                        <div class="modal-body p-5 pt-0">
+                                            <form class="">
+                                                <div class="form-floating mb-3">
+                                                    <input type="name" class="form-control rounded-3" id="floatingInput"
+                                                        placeholder="name@example.com">
+                                                    <label for="floatingInput">Enter your full name</label>
+                                                </div>
+                                                <div class="form-floating mb-3">
+                                                    <input type="email" class="form-control rounded-3"
+                                                        id="floatingInput" placeholder="name@example.com">
+                                                    <label for="floatingInput">Email address</label>
+                                                </div>
+                                                <div class="form-floating mb-3">
+                                                    <input type="password" class="form-control rounded-3"
+                                                        id="floatingPassword" placeholder="Password">
+                                                    <label for="floatingPassword">Create your password</label>
+                                                </div>
+                                                <select class="form-select py-3" aria-label="Default select example">
+                                                    <option selected>select your cours</option>
+                                                    <option value="1">Data Analytics Using Python
+                                                    </option>
+                                                    <option value="2">Information Security Design
+                                                    </option>
+                                                    <option value="3">Data Visualisation with Python
+                                                    </option>
+                                                    <option value="4">Software Development
+                                                    </option>
+                                                    <option value="5">Fundamental Of UI/UX Design
+                                                    </option>
+                                                    <option value="6">Javascript Basic to advanced
+                                                    </option>
+                                                </select>
+                                                <button class="w-100 my-3 btn btn-lg rounded-3 btn-primary"
+                                                    type="submit">Get
+                                                    Register</button>
+                                            </form>
                                         </div>
-                                        <div class="form-floating mb-3">
-                                            <input type="email" class="form-control rounded-3" id="floatingInput"
-                                                placeholder="name@example.com">
-                                            <label for="floatingInput">Email address</label>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
                                         </div>
-                                        <div class="form-floating mb-3">
-                                            <input type="password" class="form-control rounded-3" id="floatingPassword"
-                                                placeholder="Password">
-                                            <label for="floatingPassword">Create your password</label>
-                                        </div>
-                                        <select class="form-select py-3" aria-label="Default select example">
-                                            <option selected>select your cours</option>
-                                            <option value="1">Data Analytics Using Python
-                                            </option>
-                                            <option value="2">Information Security Design
-                                            </option>
-                                            <option value="3">Data Visualisation with Python
-                                            </option>
-                                            <option value="4">Software Development
-                                            </option>
-                                            <option value="5">Fundamental Of UI/UX Design
-                                            </option>
-                                            <option value="6">Javascript Basic to advanced
-                                            </option>
-                                        </select>
-                                        <button class="w-100 my-3 btn btn-lg rounded-3 btn-primary" type="submit">Get
-                                            Register</button>
-                                    </form>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary"
-                                        data-bs-dismiss="modal">Close</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -290,6 +292,11 @@
             </div>
         </section>
         <!-------------Register end---------------->
+
+        <!-------------students section start---------------->
+
+        <!-------------students section end---------------->
+
 
     </main>
 
