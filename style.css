@@ -6,8 +6,12 @@
     color: #5479f7;
 }
 
-.btn-register {
+.web-btn {
     background-color: #5479f7;
+}
+
+.web-btn:hover {
+    color: #5479f7;
 }
 
 .section-bg {
@@ -23,4 +27,8 @@
 
 .ready-btn:hover {
     color: white;
+}
+
+.student-card:hover {
+    color: #5479f7;
 }
